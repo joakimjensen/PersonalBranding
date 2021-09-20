@@ -1,0 +1,74 @@
+/*
+ Theme Name:   inspiro child
+ Theme URI:    http://jbj96.dk
+ Description:  Inspiro Child Theme
+ Author:       Joakim Bækhøj Jensen
+ Author URI:   http://jbj96.dk
+ Template:     inspiro
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         Blog, Custom Colors, Custom Logo, Custom Menu, E-Commerce, Editor Style, Entertainment, Featured Images, Full Width Template, Left Sidebar, Microformats, One Column, Post Formats, Right Sidebar, RTL Language Support, Theme Options, Threaded Comments, Translation Ready, Two Columns
+ Text Domain:  Inspiro Child-theme
+*/
+
+
+
+/* Bruges til at lægge skygge på mit navn på forsiden */
+h1.site-title {
+    text-shadow: 2px 2px black;
+}
+
+/* Bruges til at ændre størrelsen på mit navn på forsiden til mobilen */
+@media screen and (max-width:800px) {
+
+    h1.site-title {
+        font-size: 190%;
+        text-shadow: 2px 2px black;
+    }}
+
+/* Bruges til at style underoverskriften  på forsiden */
+p.site-description {
+    font-size: 290%;
+    text-shadow: 2px 2px black;
+}
+
+/* Bruges til at ændre størrelsen på underoverskiften på forsiden til mobilen */
+@media screen and (max-width:800px) {
+    p.site-description {
+        font-size: 120%;
+        text-shadow: 2px 2px black;
+    }
+    }
+
+@media screen and (max-width:800px) {
+    h1.entry-title {
+        font-size: 320%;
+    }}
+
+/* Bruges til at style overskiften på Portfolio siden */
+h1.entry-title {
+    color: #ffdb0d !important;
+    text-shadow: 2px 2px black;
+    font-size: 55px !important;
+}
+
+/* Bruges til at style afsnit underoverskriftene  på  portfolio siden*/
+h2.elementor-heading-title.elementor-size-default {
+    text-shadow: 2px 2px black;
+}
+
+/* Bruges til at style dropdown menuen*/
+ul.sub-menu {
+    border-bottom: 5px solid #ffdb0d;
+    border-top: 5px solid #ffdb0d !important;
+}
+
+/* Bruges til style teksten til "send en besked" under kontakt*/
+label.wpforms-field-label {
+    color: #ffdb0d;
+}
+
+button#wpforms-submit-447 {
+    background-color: #ffdb0d;
+}
